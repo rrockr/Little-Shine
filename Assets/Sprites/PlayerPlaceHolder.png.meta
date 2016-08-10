@@ -1,0 +1,423 @@
+fileFormatVersion: 2
+guid: 5b94b5a9b2ab28646828915f3ea9aac1
+timeCreated: 1463636610
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Iceman_Idle_Left2
+    21300002: Iceman_Idle_Left1
+    21300004: Iceman_Idle_Left
+    21300006: Iceman_Idle_Right
+    21300008: Iceman_Idle_Right1
+    21300010: Iceman_Idle_Right2
+    21300012: Iceman_Idle_Left5
+    21300014: Iceman_Idle_Left4
+    21300016: Iceman_Idle_Left3
+    21300018: Iceman_Idle_Right3
+    21300020: Iceman_Idle_Right4
+    21300022: Iceman_Idle_Right5
+    21300024: rockmanthepowerbattle_iceman_sheet_12
+    21300026: rockmanthepowerbattle_iceman_sheet_13
+    21300028: rockmanthepowerbattle_iceman_sheet_14
+    21300030: rockmanthepowerbattle_iceman_sheet_15
+    21300032: rockmanthepowerbattle_iceman_sheet_16
+    21300034: rockmanthepowerbattle_iceman_sheet_17
+    21300036: rockmanthepowerbattle_iceman_sheet_18
+    21300038: rockmanthepowerbattle_iceman_sheet_19
+    21300040: rockmanthepowerbattle_iceman_sheet_20
+    21300042: rockmanthepowerbattle_iceman_sheet_21
+    21300044: rockmanthepowerbattle_iceman_sheet_22
+    21300046: rockmanthepowerbattle_iceman_sheet_23
+    21300048: Iceman_Run_Left2
+    21300050: Iceman_Run_Left1
+    21300052: Iceman_Run_Left
+    21300054: Iceman_Run_Right
+    21300056: Iceman_Run_Right1
+    21300058: Iceman_Run_Right2
+    21300060: Iceman_Run_Left5
+    21300062: Iceman_Run_Left4
+    21300064: Iceman_Run_Left3
+    21300066: Iceman_Run_Right3
+    21300068: Iceman_Run_Right4
+    21300070: Iceman_Run_Right5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Iceman_Idle_Left2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 300
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 18.5}
+        - {x: -22.5, y: -18.5}
+        - {x: 22.5, y: -18.5}
+        - {x: 22.5, y: 14.5}
+        - {x: 11.5, y: 18.5}
+    - name: Iceman_Idle_Left1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 300
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 18.5}
+        - {x: -22.5, y: 8.5}
+        - {x: -22.5, y: -18.5}
+        - {x: 22.5, y: -18.5}
+        - {x: 22.5, y: 0.5}
+        - {x: 11.5, y: 18.5}
+    - name: Iceman_Idle_Left
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 300
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 18.5}
+        - {x: -22.5, y: 15.5}
+        - {x: -22.5, y: -18.5}
+        - {x: 22.5, y: -18.5}
+        - {x: 22.5, y: 0.5}
+        - {x: 12.5, y: 18.5}
+    - name: Iceman_Idle_Right
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 300
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: -12.5}
+        - {x: 20.5, y: -9.5}
+        - {x: 22.5, y: 18.5}
+        - {x: -12.5, y: 18.5}
+        - {x: -16.5, y: 9.5}
+        - {x: -22.5, y: -11.5}
+        - {x: -22.5, y: -18.5}
+        - {x: 22.5, y: -18.5}
+    - name: Iceman_Idle_Right1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 300
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 18.5}
+        - {x: -21.5, y: 11.5}
+        - {x: -22.5, y: -2.5}
+        - {x: -22.5, y: -18.5}
+        - {x: 22.5, y: -18.5}
+        - {x: 22.5, y: 18.5}
+    - name: Iceman_Idle_Right2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 300
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 18.5}
+        - {x: -22.5, y: -0.5}
+        - {x: -22.5, y: -18.5}
+        - {x: 22.5, y: -18.5}
+        - {x: 22.5, y: 18.5}
+    - name: Iceman_Idle_Left3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 240
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 18.5}
+        - {x: -22.5, y: -18.5}
+        - {x: 22.5, y: -18.5}
+        - {x: 22.5, y: 17.5}
+        - {x: 18.5, y: 18.5}
+    - name: Iceman_Idle_Right3
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 240
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 18.5}
+        - {x: -22.5, y: -3.5}
+        - {x: -22.5, y: -18.5}
+        - {x: 22.5, y: -18.5}
+        - {x: 22.5, y: 18.5}
+    - name: Iceman_Run_Left2
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 60
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Iceman_Run_Left1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 60
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 18}
+        - {x: -14.5, y: 18}
+        - {x: -17.5, y: 17}
+        - {x: -17.5, y: -17}
+        - {x: -11.5, y: -18}
+        - {x: 17.5, y: -18}
+        - {x: 17.5, y: 4}
+    - name: Iceman_Run_Left
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 61
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 17}
+        - {x: -22, y: 5}
+        - {x: -22, y: -13}
+        - {x: -17, y: -17}
+        - {x: 22, y: -17}
+        - {x: 22, y: 4}
+        - {x: 4, y: 17}
+    - name: Iceman_Run_Right
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 61
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 17}
+        - {x: -22, y: 8}
+        - {x: -22, y: -17}
+        - {x: 22, y: -17}
+        - {x: 22, y: 13}
+        - {x: 19, y: 17}
+    - name: Iceman_Run_Right1
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 60
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 18}
+        - {x: -17.5, y: 6}
+        - {x: -17.5, y: -18}
+        - {x: 17.5, y: -18}
+        - {x: 17.5, y: 11}
+        - {x: 15.5, y: 18}
+    - name: Iceman_Run_Right2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 60
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Iceman_Run_Left5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 17}
+        - {x: -20.5, y: 17}
+        - {x: -23.5, y: 16}
+        - {x: -23.5, y: -17}
+        - {x: 23.5, y: -17}
+        - {x: 23.5, y: -5}
+        - {x: 17.5, y: 4}
+    - name: Iceman_Run_Left4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 18}
+        - {x: -20.5, y: -18}
+        - {x: 20.5, y: -18}
+        - {x: 20.5, y: 16}
+        - {x: 17.5, y: 18}
+    - name: Iceman_Run_Left3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 17.5}
+        - {x: -16, y: 15.5}
+        - {x: -16, y: -10.5}
+        - {x: -10, y: -17.5}
+        - {x: 16, y: -17.5}
+        - {x: 16, y: 12.5}
+        - {x: 13, y: 17.5}
+    - name: Iceman_Run_Right3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 17.5}
+        - {x: -16, y: 12.5}
+        - {x: -16, y: -17.5}
+        - {x: 9, y: -17.5}
+        - {x: 16, y: -11.5}
+        - {x: 16, y: 17.5}
+    - name: Iceman_Run_Right4
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 18}
+        - {x: -20.5, y: 11}
+        - {x: -20.5, y: -18}
+        - {x: 17.5, y: -18}
+        - {x: 20.5, y: -16}
+        - {x: 20.5, y: 16}
+        - {x: 19.5, y: 18}
+    - name: Iceman_Run_Right5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 17}
+        - {x: -21.5, y: 6}
+        - {x: -23.5, y: 1}
+        - {x: -23.5, y: -17}
+        - {x: 23.5, y: -17}
+        - {x: 23.5, y: 17}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
