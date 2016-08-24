@@ -23,7 +23,6 @@ public class PlayerScript : MonoBehaviour
 
     private Rigidbody2D rb2DPlayer;
 
-	// Use this for initialization
 	void Start ()
     {
         animPlayerAnimator = this.gameObject.GetComponent<Animator>();
@@ -32,9 +31,16 @@ public class PlayerScript : MonoBehaviour
         v2MoveMarkerInitialPos = MoveMarker.transform.position;
 	}
 	
-	// Update is called once per frame
 	void Update () 
     {
+        if (Input.touchCount > 0)  //If screen was touched
+        {
+            firstTouch = Input.GetTouch(0);    //Detect only first finger
+            bIsPlayerMoving = true;
+
+            rayTarget = Camera.main.ScreenPointToRay(firstTouch.position);  //firstTouch.position is inaccurate, convert to a ray to get proper position at its origin
+        }
+
         //Update player movement information here to increase accuracy
         v2PlayerPosition = new Vector2(this.transform.position.x, this.transform.position.y);
         v2MoveTarget = rayTarget.origin;
@@ -45,14 +51,6 @@ public class PlayerScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Input.touchCount > 0)  //If screen was touched
-        {
-            firstTouch = Input.GetTouch(0);    //Detect only first finger
-            bIsPlayerMoving = true;
-
-            rayTarget = Camera.main.ScreenPointToRay(firstTouch.position);  //firstTouch.position is inaccurate, convert to a ray to get proper position at its origin
-        }
-
         if (bIsPlayerMoving == true) //Move player
         {
             rb2DPlayer.velocity = v2PlayerDirection.normalized * PlayerSpeed;

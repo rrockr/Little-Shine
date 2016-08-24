@@ -4,11 +4,15 @@ using System.Collections;
 
 public class Menu : MonoBehaviour 
 {
+    //Use for fade to black
+    public GameObject goFader;
+    private Animator animFader;
 
 	// Use this for initialization
 	void Start ()
     {
-	
+        //Get animator
+        animFader = goFader.GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -17,13 +21,22 @@ public class Menu : MonoBehaviour
 	
 	}
 
-    public void LoadLevel()
+    public void startGame()
     {
-        SceneManager.LoadScene("Scenes/Main");
+        animFader.SetTrigger("FadeToBlack");
+        StartCoroutine(loadScene("Scenes/LevelOne"));
     }
 
-    public void LoadMainMenu()
+    public void retryGame()
     {
-        SceneManager.LoadScene("Scenes/MainMenu");
+        animFader.SetTrigger("FadeToBlack");
+        StartCoroutine(loadScene("Scenes/MainMenu"));
+    }
+
+    IEnumerator loadScene(string levelName)
+    {
+        yield return new WaitForSeconds(2f);
+
+        SceneManager.LoadScene(levelName);
     }
 }

@@ -4,11 +4,14 @@ using System.Collections;
 
 public class ExitPoint : MonoBehaviour 
 {
+    public GameObject goFader;
+    private Animator animFader;
+
 
 	// Use this for initialization
 	void Start () 
     {
-	
+        animFader = goFader.GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -21,7 +24,16 @@ public class ExitPoint : MonoBehaviour
     {
         if (obj.tag == "Player")
         {
-            SceneManager.LoadScene("Scenes/GameEnd");
+            animFader.SetTrigger("FadeToBlack");
+            StartCoroutine(loadNextLevel());
         }
+    }
+
+    IEnumerator loadNextLevel()
+    {
+        yield return new WaitForSeconds(2f);
+
+        LevelManager.iCurrentLevel++;
+        SceneManager.LoadScene(LevelManager.iCurrentLevel);
     }
 }
