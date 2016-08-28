@@ -24,7 +24,7 @@ public class Menu : MonoBehaviour
     public void startGame()
     {
         animFader.SetTrigger("FadeToBlack");
-        StartCoroutine(loadScene("Scenes/LevelOne"));
+        StartCoroutine(loadScene("Scenes/Level1"));
     }
 
     public void retryGame()
