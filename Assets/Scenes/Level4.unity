@@ -800,7 +800,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 459770, guid: e0efad26eb0d9884f87e747679350f6a, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 587
+      value: 580
       objectReference: {fileID: 0}
     - target: {fileID: 459770, guid: e0efad26eb0d9884f87e747679350f6a, type: 2}
       propertyPath: m_LocalRotation.x
@@ -820,7 +820,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 459770, guid: e0efad26eb0d9884f87e747679350f6a, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e0efad26eb0d9884f87e747679350f6a, type: 2}
@@ -886,7 +886,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!1001 &1581973648
 Prefab:
   m_ObjectHideFlags: 0
