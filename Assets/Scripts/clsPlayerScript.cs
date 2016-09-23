@@ -1,34 +1,34 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerScript : MonoBehaviour 
+public class clsPlayerScript : MonoBehaviour 
 {
-    public GameObject MoveMarker;
+    public GameObject goMoveMarker;          //Used to indicate where player character moves to
 
-    public float PlayerSpeed;
+    public float fPlayerSpeed;              //Speed of player
 
-    private Vector2 v2PlayerPosition;
-    private Vector2 v2MovePosition;
-    private Vector2 v2MoveTarget;
-    private Vector2 v2PlayerDirection;
-    private Vector2 v2MoveMarkerInitialPos;
+    private bool bIsPlayerMoving = false;   //Check if player is moving
 
-    private bool bIsPlayerMoving = false;
+    private Vector2 v2PlayerPosition;       //Vector2 version of player's transform
+    private Vector2 v2MoveTarget;           //Vector2 version of position touched on screen
+    private Vector2 v2PlayerDirection;      //Direction player is moving from player's position to goMoveMarker
+    private Vector2 v2MoveMarkerInitialPos; //goMoveMarker's starting position, which is offscreen
 
-    private Ray rayTarget;
+    private Ray rayTarget;                  //Ray is required for converting screen coordinates
 
     private Touch firstTouch;
 
-    private Animator animPlayerAnimator;
+    private Animator animPlayerAnimator;    
 
     private Rigidbody2D rb2DPlayer;
 
 	void Start ()
     {
-        animPlayerAnimator = this.gameObject.GetComponent<Animator>();
-        rb2DPlayer = this.gameObject.GetComponent<Rigidbody2D>();
-        v2PlayerPosition = new Vector2(this.transform.position.x, this.transform.position.y);
-        v2MoveMarkerInitialPos = MoveMarker.transform.position;
+        animPlayerAnimator      = this.gameObject.GetComponent<Animator>();
+        rb2DPlayer              = this.gameObject.GetComponent<Rigidbody2D>();
+
+        v2PlayerPosition        = new Vector2(this.transform.position.x, this.transform.position.y);
+        v2MoveMarkerInitialPos  = goMoveMarker.transform.position;
 	}
 	
 	void Update () 
@@ -51,14 +51,14 @@ public class PlayerScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (bIsPlayerMoving == true) //Move player
+        if (bIsPlayerMoving == true)
         {
-            rb2DPlayer.velocity = v2PlayerDirection.normalized * PlayerSpeed;
-            MoveMarker.transform.position = v2MoveTarget; //Indicate where the player touched to let player know sprite is moving towards target
+            rb2DPlayer.velocity = v2PlayerDirection.normalized * fPlayerSpeed;  //Move player
+            goMoveMarker.transform.position = v2MoveTarget; //Indicate where the player touched to let player know sprite is moving towards target
 
             if (Vector2.Distance(v2PlayerPosition, v2MoveTarget) <= 10f) //If close to target, stop moving
             {
-                MoveMarker.transform.position = v2MoveMarkerInitialPos;
+                goMoveMarker.transform.position = v2MoveMarkerInitialPos;
                 rb2DPlayer.velocity = Vector2.zero;
                 bIsPlayerMoving = false;
             }

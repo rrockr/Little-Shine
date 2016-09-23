@@ -2,9 +2,9 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class ExitPoint : MonoBehaviour 
+public class clsExitPoint : MonoBehaviour 
 {
-    public GameObject goFader;
+    public GameObject goFader;  //Image object required to FadetoBlack/FadetoClear
     private Animator animFader;
 
 
@@ -22,18 +22,18 @@ public class ExitPoint : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D obj)
     {
-        if (obj.tag == "Player")
+        if (obj.tag == "Player")    
         {
             animFader.SetTrigger("FadeToBlack");
             StartCoroutine(loadNextLevel());
         }
     }
 
-    IEnumerator loadNextLevel()
+    IEnumerator loadNextLevel() //Wait 2 seconds before starting next level to give goFader time to play animation
     {
         yield return new WaitForSeconds(2f);
 
-        LevelManager.iCurrentLevel++;
-        SceneManager.LoadScene(LevelManager.iCurrentLevel);
+        clsLevelManager.iCurrentLevel++;
+        SceneManager.LoadScene(clsLevelManager.iCurrentLevel);
     }
 }

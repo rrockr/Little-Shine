@@ -1,8 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Switch.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\clsTeleporter.cs">
     <Files>
-      <File FileName="Assets\Scripts\Switch.cs" Line="30" Column="18" />
+      <File FileName="Assets\Scripts\clsTeleporter.cs" Line="4" Column="17" />
+      <File FileName="Assets\Scripts\clsSwitch.cs" Line="63" Column="72" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

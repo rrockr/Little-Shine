@@ -507,6 +507,14 @@ Prefab:
       propertyPath: MoveMarker
       value: 
       objectReference: {fileID: 1281376576}
+    - target: {fileID: 11494582, guid: 13712003af286a44ba3c2d83e442dcb6, type: 2}
+      propertyPath: fPlayerSpeed
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 11494582, guid: 13712003af286a44ba3c2d83e442dcb6, type: 2}
+      propertyPath: goMoveMarker
+      value: 
+      objectReference: {fileID: 1281376576}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13712003af286a44ba3c2d83e442dcb6, type: 2}
   m_IsPrefabParent: 0

@@ -2,7 +2,7 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class Menu : MonoBehaviour 
+public class clsMenu : MonoBehaviour 
 {
     //Use for fade to black
     public GameObject goFader;
